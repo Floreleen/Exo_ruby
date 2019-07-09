@@ -1,5 +1,5 @@
-puts "Bonjour, c'est quoi ton blase ?"
-user_name = gets.chomp
-puts "Bonjour " + user_name + ", quel est ton nom de famille ?"
-user_nickname = gets.chomp
-puts "Bonjour " + user_name + " " + user_nickname +" ! "
+puts "Quelle est ton année de naissance?"
+print "> "
+birthdate = gets.chomp
+age = 2017 - birthdate.to_i
+puts "Tu es âgé de #{age} ans!"
